@@ -1,3 +1,3 @@
-FROM bwce-base-image:2.5.2
+FROM microservice:latest
 ADD test.ear /
 EXPOSE 8051
